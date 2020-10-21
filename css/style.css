@@ -1,0 +1,111 @@
+/*
+Títulos: Bebas Neue   font-family: 'Bebas Neue', cursive;
+Texto Normal: Titillium Web     font-family: 'Titillium Web', sans-serif;
+Texto con énfasis: Courier Prime    font-family: 'Courier Prime', monospace;
+*/
+
+*
+{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 30px;
+}
+
+body
+{
+    background-color:snow;
+}
+
+h1, h2
+{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.cont_img
+{
+    display: inline;
+    position: relative;
+    top: 33px;
+    left: 100px;
+}
+
+#img
+{
+    width: 32%;
+    border: 15px solid;
+    border-color: #6BC393;
+    padding: 10px;
+    background-color: #60A1B9;
+}
+
+.cont_datos
+{
+    border: 15px;
+    border-style: double;
+    border-color: #1F1F1F;
+    display: inline-block;
+    position: relative;
+    background-color: #F2F2F2;
+    left: 145px;
+    padding-left: 25px;  
+    padding-right: 25px; 
+}
+
+.subtema
+{
+    font-family: 'Courier Prime', monospace;
+}
+
+.botones
+{
+    margin-top: 25px;
+}
+
+.personales {
+    border: 15px groove;
+    display: inline-block;
+    background-color: #76D7C4;
+}
+
+.personales a:link
+{
+    color: black;
+}
+
+.personales a:visited
+{
+    color: black;
+}
+
+.tareas {
+    border: 15px groove;
+    display: inline-block;
+    position: relative;
+    left: 398px;
+    background-color: #76D7C4;
+}
+
+.tareas a:link {
+    color: black;
+}
+
+.tareas a:visited {
+    color: black;
+}
+
+.act {
+    border: 15px groove;
+    display: inline-block;
+    position: relative;
+    left: 778px;
+    background-color: #76D7C4;
+}
+
+.act a:link {
+    color: black;
+}
+
+.act a:visited {
+    color: black;
+}
