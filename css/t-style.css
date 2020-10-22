@@ -2,7 +2,6 @@
 Títulos: Bebas Neue   font-family: 'Bebas Neue', cursive;
 Texto Normal: Titillium Web     font-family: 'Titillium Web', sans-serif;
 Texto con énfasis: Courier Prime    font-family: 'Courier Prime', monospace;
-https://www.enriquejros.com/efectos-imagenes-css/
 */
 
 *
@@ -29,23 +28,15 @@ h1, h2
     position: relative;
     top: 33px;
     left: 100px;
-    overflow:hidden;
 }
 
-#img 
+#img
 {
     width: 32%;
     border: 15px solid;
     border-color: #6BC393;
     padding: 10px;
     background-color: #60A1B9;
-}
-
-#img:hover
-{
-    -webkit-transform:scale(0.9);
-    transform:scale(0.9);
-    transition:all .5s ease-in-out;
 }
 
 .cont_datos
