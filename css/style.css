@@ -5,22 +5,40 @@ Texto con énfasis: Courier Prime    font-family: 'Courier Prime', monospace;
 https://www.enriquejros.com/efectos-imagenes-css/
 */
 
+/*---------------------------------------------SECCIÓN FONDO------------------------------------------------------*/
+.video 
+{
+    max-width: 300%;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    z-index: -1;
+    overflow: hidden;
+}
+
+body 
+{
+    background-color: snow;
+}
+
+/*---------------------------------------------SECCIÓN GENERAL------------------------------------------------------*/
+
 *
 {
     font-family: 'Titillium Web', sans-serif;
     font-size: 30px;
 }
 
-body
-{
-    background-color:snow;
-}
-
-h1, h2
+h1
 {
     text-align: center;
-    font-size: 50px;
+    font-size: 70px;
     font-family: 'Bebas Neue', cursive;
+    color: aliceblue;
 }
 
 .cont_img
