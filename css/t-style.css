@@ -22,38 +22,28 @@ h1, h2
     font-family: 'Bebas Neue', cursive;
 }
 
-.cont_img
+.contenedor 
 {
-    display: inline;
-    position: relative;
-    top: 33px;
-    left: 100px;
+    border: solid;
+    border-color: black;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 25px;
 }
 
-#img
+.cont_info p 
 {
-    width: 32%;
-    border: 15px solid;
-    border-color: #6BC393;
-    padding: 10px;
-    background-color: #60A1B9;
+    font-size: 20px;
+    text-align: justify;
 }
 
-.cont_datos
+.cont_info ul li 
 {
-    border: 15px;
-    border-style: double;
-    border-color: #1F1F1F;
-    display: inline-block;
-    position: relative;
-    background-color: #F2F2F2;
-    left: 145px;
-    padding-left: 25px;  
-    padding-right: 25px; 
+    font-size: 20px;
+    text-align: justify;
 }
 
-.subtema
-{
+.subtema {
     font-family: 'Courier Prime', monospace;
 }
 
