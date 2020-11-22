@@ -37,32 +37,7 @@ h1
     text-align: center;
     font-size: 70px;
     font-family: 'Bebas Neue', cursive;
-    color: aliceblue;
-}
-
-.cont_img
-{
-    display: inline;
-    position: relative;
-    top: 33px;
-    left: 100px;
-    overflow:hidden;
-}
-
-#img 
-{
-    width: 32%;
-    border: 15px solid;
-    border-color: #6BC393;
-    padding: 10px;
-    background-color: #60A1B9;
-}
-
-#img:hover
-{
-    -webkit-transform:scale(0.9);
-    transform:scale(0.9);
-    transition:all .5s ease-in-out;
+    color: burlywood;
 }
 
 .cont_datos
@@ -72,10 +47,23 @@ h1
     border-color: #1F1F1F;
     display: inline-block;
     position: relative;
+    left: 350px;
     background-color: #F2F2F2;
-    left: 145px;
     padding-left: 25px;  
-    padding-right: 25px; 
+    padding-right: 25px;
+    width: 550px;
+    text-align: justify;
+}
+
+.cont_datos a
+{
+    color: black;
+}
+
+.til
+{
+    font-family: 'Miriam Libre', sans-serif;
+    font-size: 30px;
 }
 
 .subtema
@@ -93,7 +81,7 @@ h1
 {
     border: 15px groove;
     display: inline-block;
-    background-color: #76D7C4;    
+    background-color: #76D7C4;
 }
 
 .personales:hover
@@ -115,8 +103,8 @@ h1
 .tareas 
 {
     border: 15px groove;
-    position: relative;
     display: inline-block;
+    position: relative;
     left: 965px;
     background-color: #76D7C4;
 }

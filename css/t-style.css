@@ -2,6 +2,7 @@
 Títulos: Bebas Neue   font-family: 'Bebas Neue', cursive;
 Texto Normal: Titillium Web     font-family: 'Titillium Web', sans-serif;
 Texto con énfasis: Courier Prime    font-family: 'Courier Prime', monospace;
+Preguntas: Miriam Libre     font-family: 'Miriam Libre', sans-serif;
 */
 
 *
@@ -12,7 +13,7 @@ Texto con énfasis: Courier Prime    font-family: 'Courier Prime', monospace;
 
 body
 {
-    background-color:snow;
+    background-color: snow;
 }
 
 h1, h2
@@ -22,13 +23,30 @@ h1, h2
     font-family: 'Bebas Neue', cursive;
 }
 
+h3
+{
+    text-align: center;
+}
+
 .contenedor 
 {
-    border: solid;
+    border: dashed 5px;
     border-color: black;
     margin-left: 80px;
     margin-right: 80px;
     padding: 25px;
+}
+
+.pregunta
+{
+    font-family: 'Miriam Libre', sans-serif;
+    font-size: 40px;
+}
+
+.til
+{
+    font-family: 'Courier Prime', monospace;
+    font-size: 55px;
 }
 
 .cont_info p 
@@ -43,8 +61,47 @@ h1, h2
     text-align: justify;
 }
 
-.subtema {
+.subtema 
+{
     font-family: 'Courier Prime', monospace;
+    font-size: 20px;
+}
+
+.cont_img_v1
+{
+    border: solid;
+    border-color: #1F1F1F;
+    background: #F2F2F2;
+    position: relative;
+    margin: auto;
+    padding: 25px;
+    width: 70%;
+}
+
+.cont_img_v1 img
+{
+    width: 70%;
+    max-height: 50%;
+    margin: auto;    
+    display: block;
+}
+
+.cont_img_v2
+{
+    border: solid;
+    border-color: #1F1F1F;
+    background: #F2F2F2;
+    position: relative;
+    margin: 2vh auto;
+    padding: 25px;
+    width: 70%;
+}
+
+.cont_img_v2 img
+{
+    width: 49%;
+    display: inline;
+    margin: 1px;
 }
 
 /*---------------------------------------------SECCIÓN PARA BOTONES----------------------------------------------*/
@@ -53,25 +110,25 @@ h1, h2
     margin-top: 25px;
 }
 
-.personales 
+.anterior 
 {
     border: 15px groove;
     display: inline-block;
     background-color: #76D7C4;
 }
 
-.personales:hover
+.anterior:hover
 {
     -webkit-transform:scale(0.9);
     transform:scale(0.9);
 }
 
-.personales a:link
+.anterior a:link
 {
     color: black;
 }
 
-.personales a:visited
+.anterior a:visited
 {
     color: black;
 }
@@ -81,7 +138,7 @@ h1, h2
     border: 15px groove;
     display: inline-block;
     position: relative;
-    left: 398px;
+    left: 410px;
     background-color: #76D7C4;
 }
 
@@ -101,27 +158,27 @@ h1, h2
     color: black;
 }
 
-.act 
+.siguiente 
 {
     border: 15px groove;
     display: inline-block;
     position: relative;
-    left: 778px;
+    left: 855px;
     background-color: #76D7C4;
 }
 
-.act:hover
+.siguiente:hover
 {
     -webkit-transform:scale(0.9);
     transform:scale(0.9);
 }
 
-.act a:link 
+.siguiente a:link 
 {
     color: black;
 }
 
-.act a:visited 
+.siguiente a:visited 
 {
     color: black;
 }
