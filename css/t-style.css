@@ -11,6 +11,13 @@ Preguntas: Miriam Libre     font-family: 'Miriam Libre', sans-serif;
     font-size: 30px;
 }
 
+img:hover
+{
+    transition:all .6s ease-in-out;
+    -webkit-transform:scale(1.4);
+    transform:scale(1.4);
+}
+
 body
 {
     background-color: snow;
@@ -67,45 +74,332 @@ h3
     font-size: 20px;
 }
 
-.cont_img_v1
+.pie
 {
-    border: solid;
-    border-color: #1F1F1F;
-    background: #F2F2F2;
+    font-family: 'Courier Prime', monospace;
+    font-size: 15px;
+    margin-left: 195px;
     position: relative;
-    margin: auto;
-    padding: 25px;
-    width: 70%;
 }
 
-.cont_img_v1 img
+.pie-2
 {
-    width: 70%;
-    max-height: 50%;
-    margin: auto;    
-    display: block;
-}
-
-.cont_img_v2
-{
-    border: solid;
-    border-color: #1F1F1F;
-    background: #F2F2F2;
+    font-family: 'Courier Prime', monospace;
+    font-size: 15px;
+    margin-left: 365px;
     position: relative;
-    margin: 2vh auto;
-    padding: 25px;
-    width: 70%;
 }
 
-.cont_img_v2 img
+.pie-3
 {
-    width: 49%;
+    font-family: 'Courier Prime', monospace;
+    font-size: 15px;
+    margin-left: 50px;
+    position: relative;
+}
+
+.img-1-d
+{
+    width: 39%;
+    max-height: 243px;
+}
+
+.img-1-i
+{
+    margin-left: 115px;
+    width: 39%;
+    max-height: 243px;
+}
+
+.img-1-c
+{
+    width: 60%;
+    max-height: 300px;
     display: inline;
-    margin: 1px;
+    margin-left: 237px;
+}
+
+.img-1-c-p
+{
+    width: 30%;
+    display: inline;
+    margin-left: 385px;
+    max-height: 450px;
+}
+
+.img-2-i
+{
+    margin-left: 120px;
+    max-height: 250px;
+    width: 30%;
+    display: inline;
+}
+
+.img-2-d
+{
+    margin-left: 10px;
+    max-height: 250px;
+    width: 45%;
+    display: inline;
+}
+
+.img-2-i-i
+{
+    margin-left: 10px;
+    max-height: 250px;
+    width: 30%;
+    display: inline;
+}
+
+.img-2-d-i
+{
+    margin-left: 130px;
+    max-height: 250px;
+    width: 45%;
+    display: inline;
+}
+
+.img-3-i 
+{
+    margin-left: 15px;
+    max-height: 190px;
+    width: 31%;
+    display: inline;
+}
+
+.img-3-c 
+{
+    max-height: 190px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 31%;
+    display: inline;
+}
+
+.img-3-d 
+{
+    max-height: 190px;
+    width: 31%;
+    display: inline;
+}
+
+.img-3-i-2
+{
+    margin-left: 40px;
+    width: 30%;
+    display: inline;
+    max-height: 450px;
+}
+
+.img-3-c-2 
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 30%;
+    display: inline;
+    max-height: 450px;
+}
+
+.img-3-d-2 
+{
+    width: 30%;
+    display: inline;
+    max-height: 450px;
+}
+
+.img-4-corta-i 
+{
+    margin-left: 190px;
+    max-height: 250px;
+    width: 30%;
+    display: inline;
+}
+
+.img-4-i
+{
+    margin-left: 80px;
+    width: 20%;
+    max-height: 200px;
+    display: inline;
+}
+
+.img-4-c1 
+{
+    width: 20%;
+    max-height: 200px;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.img-4-c2 
+{
+    width: 20%;
+    max-height: 200px;
+    display: inline;
+    margin-right: 10px;
+}
+
+.img-4-d
+{
+    width: 20%;
+    max-height: 200px;
+    display: inline;
+}
+
+.img-4-corta-d 
+{
+    margin-left: 10px;
+    max-height: 250px;
+    width: 30%;
+    display: inline-block;
+}
+
+.img-4-larga-d
+{
+    margin-left: 10px;
+    max-height: 250px;
+    width: 35%;
+    display: inline;
+}
+
+.img-4-larga-i
+{
+    margin-left: 190px;
+    max-height: 250px;
+    width: 35%;
+    display: inline;
+}
+
+.img-5-1 
+{
+    margin-left: 300px;
+    margin-bottom: 10px;
+    width: 50%;
+    display: block;
+    max-height: 300px;
+}
+
+.img-5-2 
+{
+    margin-bottom: 10px;
+    margin-left: 300px;
+    width: 50%;
+    display: block;
+    max-height: 300px;
+}
+
+.img-5-3 
+{
+    margin-bottom: 10px;
+    margin-left: 300px;
+    width: 50%;
+    display: block;
+    max-height: 300px;
+}
+
+.img-5-4 
+{
+    margin-bottom: 10px;
+    margin-left: 300px;
+    width: 50%;
+    display: block;
+    max-height: 300px;
+}
+
+.img-5-5 
+{
+    margin-left: 300px;
+    width: 50%;
+    display: block;
+    max-height: 300px;
+}
+
+#nike
+{
+    width: 50%;
+    margin-left: 300px;
+}
+
+.codigo
+{
+    list-style: none;
+}
+
+.codigo li
+{
+    font-family: 'Courier New';
+    font-style: italic;
+}
+
+.comentario
+{
+    font-family: 'Courier New';
+    font-size: 20px;
+    color: #787878;
+}
+
+.atributo
+{
+    font-family: 'Courier New';
+    font-size: 20px;
+    color: green;
+}
+
+.constante
+{
+    font-family: 'Courier New';
+    font-size: 20px;
+    color: blue;
+}
+
+.tab-1
+{
+    margin-left: 40px;
+}
+
+.tab-2
+{
+    margin-left: 70px;
+}
+
+.tab-3
+{
+    margin-left: 110px;
+}
+
+.tab-4
+{
+    margin-left: 130px;
+}
+
+.tab-5
+{
+    margin-left: 160px;
+}
+
+.comentario-tab-1
+{
+    color: dimgrey;
+    margin-left: 11px;
+}
+
+.reservada
+{
+    font-family: 'Courier New';
+    font-size: 20px;
+    color: cornflowerblue;
+}
+
+.var
+{
+    font-family: 'Courier New';
+    font-size: 20px;
+    color: blueviolet;
 }
 
 /*---------------------------------------------SECCIÓN PARA BOTONES----------------------------------------------*/
-.botones
+.botones 
 {
     margin-top: 25px;
 }
@@ -142,6 +436,11 @@ h3
     background-color: #76D7C4;
 }
 
+#personales
+{
+    left: 395px;
+}
+
 .tareas:hover
 {
     -webkit-transform:scale(0.9);
@@ -167,10 +466,15 @@ h3
     background-color: #76D7C4;
 }
 
-.siguiente:hover
+#sig-personales
 {
-    -webkit-transform:scale(0.9);
-    transform:scale(0.9);
+    left: 795px;
+}
+
+
+.siguiente:hover {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
 }
 
 .siguiente a:link 

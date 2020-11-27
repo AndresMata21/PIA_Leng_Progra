@@ -49,8 +49,7 @@ h1
     position: relative;
     left: 350px;
     background-color: #F2F2F2;
-    padding-left: 25px;  
-    padding-right: 25px;
+    padding: 25px;  
     width: 550px;
     text-align: justify;
 }

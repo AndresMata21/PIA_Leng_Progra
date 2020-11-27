@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>| PIA - 1915173 / TAREAS |</title>
+    <link rel="stylesheet" href="css/t-style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courier+Prime:ital,wght@1,700&family=Miriam+Libre:wght@700&family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>TAREAS DE INVESTIGACIÓN</h1>
+    <h2>Tarea #8<br><code class="til">- HASKELL -</code></h2>
+    <div class="contenedor">
+        <div class="img-1">
+            <img class="img-1-c-p" src="img/Investigaciones/haskell-2.png" alt="Alternate Text" />
+        </div>
+        <h3 class="pregunta">- Símbolos -</h3>
+        <div class="cont_info">
+            <p class="comentario">
+                hci> :t 'a' <br />
+                'a' :: Char <br />
+                ghci> :t True <br />
+                True :: Bool <br />
+                ghci> :t "HOLA!" <br />
+                "HELLO!" :: [Char] <br />
+                ghci> :t (True, 'a') <br />
+                (True, 'a') :: (Bool, Char) <br />
+                ghci> :t 4 == 5 <br />
+                4 == 5 :: Bool <br />
+            </p>
+        </div>
+        <h3 class="pregunta">- Sintaxis -</h3>
+        <div class="cont_info">
+            <p class="comentario">
+                lucky :: (Integral a) => a -> String <br />
+                lucky 7 = "¡El siete de la suerte!" <br />
+                lucky x = "Lo siento, ¡no es tu día de suerte!" <br />
+            </p>
+            <p>
+                Cuando llamamos a lucky, los patrones son verificados de arriba a abajo y cuando un patrón concuerda con el valor asociado, se utiliza el cuerpo de la función asociado. En este caso, la única forma de que un número concuerde con el primer patrón es que dicho número sea 7. Si no lo es, se evaluara el siguiente patrón, el cual coincide con cualquier valor y lo liga a x.
+            </p>
+        </div>
+        <h3 class="pregunta">- Esqueleto de Programas -</h3>
+        <div class="cont_info">
+            <p>
+                nombre_funcion :: IO () <br />
+                Nombre_funcion = instrucciones. <br />
+            </p>
+        </div>
+        <h3 class="pregunta">- Aplicación descargada para Editar y Ejectutar -</h3>
+        <div class="cont_info">
+            <p>
+                Glasgow Haskell Compiler
+            </p>
+            <div class="img-1">
+                <img class="img-1-c" src="img/Investigaciones/haskell.png" alt="Alternate Text" />
+            </div>
+        </div>
+        <h3 class="pregunta">- Paradigma al que Pertenece -</h3>
+        <div class="cont_info">
+            <p>
+                Paradigma de programación lógica.
+            </p>
+        </div>
+        <h3 class="pregunta">- Ejemplo de Programa Escrito -</h3>
+        <div class="cont_info">
+            <ul class="codigo">
+                <li><span class="constante">main :: IO ()</span></li>
+                <li><span class="constante">main = putStrLn "Hello, World!"</span></li>
+            </ul>
+        </div>
+    </div>
+    <div class="botones">
+        <div class="anterior">
+            <a href="Tarea7.html">Anterior</a>
+        </div>
+        <div class="tareas">
+            <a href="MenuTareas.html">Menú Tareas</a>
+        </div>
+        <div class="siguiente">
+            <a href="Tarea9.html">Siguiente</a>
+        </div>
+    </div>
+</body>
+</html>

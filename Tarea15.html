@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>| PIA - 1915173 / TAREAS |</title>
+    <link rel="stylesheet" href="css/t-style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courier+Prime:ital,wght@1,700&family=Miriam+Libre:wght@700&family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>TAREAS DE INVESTIGACIÓN</h1>
+    <h2>Tarea #15<br><code class="til">- CONVERSIÓN DE TEMPERATURA -</code></h2>
+    <div class="contenedor">
+        <h3 class="pregunta">- JAVA -</h3>
+        <div class="cont_info">
+            <ul class="codigo">
+                <li class="comentario">/*</li>
+                <li class="comentario-tab-1">*</li>
+                <li class="comentario-tab-1">* Nombre: JAMC Matr: 1915173 Hora: N2</li>
+                <li class="comentario-tab-1">* Conversión de Temperatura (TAREA 15)</li>
+                <li class="comentario-tab-1">* Elabore un programa que mediante un Menú de opciones permitir calcular la conversión</li>
+                <li class="comentario-tab-1">* de escala de temperatura.</li>
+                <li class="comentario-tab-1">*</li>
+                <li class="comentario-tab-1">*/</li>
+                <li><span class="reservada">import</span> javax.swing.JOptionPane;</li>
+                <li><span class="reservada">public class</span> <span class="atributo">Tarea15</span></li>
+                <li>{</li>
+                <li class="tab-1"><span class="reservada">public static void</span> main(<span class="var">String</span>[] <span class="atributo">args</span>)</li>
+                <li class="tab-1">{</li>
+                <li class="tab-2">String teclado = "";</li>
+                <li class="tab-2">String options[] = {"Fin", "°C -> °F", "°F -> °C"};</li>
+                <li class="tab-2">float C, F, conv;</li>
+                <li class="tab-2">int v;</li>
+                <li class="tab-2">JOptionPane.showMessageDialog(null, "Bienvenido al Sistema de Conversión Meteorológica\n'C-H-E-R-S-O', usuario.");</li>
+                <li class="tab-2">do</li>
+                <li class="tab-2">{</li>
+                <li class="tab-3">v = JOptionPane.showOptionDialog(null, "Seleccionar el Tipo de Conversión","Conversión Meteorológica", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.QUESTION_MESSAGE, null, options, options[0]);</li>
+                <li class="tab-3">switch(v)</li>
+                <li class="tab-3">{</li>
+                <li class="tab-4">case 1:</li>
+                <li class="tab-5">teclado = JOptionPane.showInputDialog("Ingresa la Temperatura en °C");</li>
+                <li class="tab-5">C = Float.parseFloat(teclado);</li>
+                <li class="tab-5">conv = (C * 9/5) + 32;</li>
+                <li class="tab-5">JOptionPane.showMessageDialog(null, C +" °C = " + conv + " °F");</li>
+                <li class="tab-5">break;</li>
+                <li class="tab-4">case 2:</li>
+                <li class="tab-5">teclado = JOptionPane.showInputDialog("Ingresa la Temperatura en °F");</li>
+                <li class="tab-5">F = Float.parseFloat(teclado);</li>
+                <li class="tab-5">conv = (F - 32) * 5/9;</li>
+                <li class="tab-5">JOptionPane.showMessageDialog(null, F +" °F = " + conv + " °C");</li>
+                <li class="tab-5">break;</li>
+                <li class="tab-5"></li>
+                <li class="tab-5"></li>
+                <li class="tab-3">} while (v != 0);</li>
+                <li class="tab-3">JOptionPane.showMessageDialog(null, "Tenga un buen día.");</li>
+                <li class="tab-1">}</li>
+                <li>}</li>
+            </ul>
+        </div>
+        <h3 class="pregunta">- RUBY -</h3>
+        <div class="cont_info">
+            <ul class="codigo">
+                
+            </ul>
+        </div>
+    </div>
+    <div class="botones">
+        <div class="anterior">
+            <a href="Tarea14.html">Anterior</a>
+        </div>
+        <div class="tareas">
+            <a href="MenuTareas.html">Menú Tareas</a>
+        </div>
+        <div class="siguiente">
+            <a href="Tarea16.html">Siguiente</a>
+        </div>
+    </div>
+</body>
+</html>
