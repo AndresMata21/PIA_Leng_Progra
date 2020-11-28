@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1>TAREAS DE INVESTIGACIÓN</h1>
-    <h2>Tarea #17<br><code class="til">- SERIE A -</code></h2>
+    <h2>Tarea #19<br><code class="til">- SERIE C -</code></h2>
     <div class="contenedor">
         <h3 class="pregunta">- JAVA -</h3>
         <div class="cont_info">
@@ -17,9 +17,9 @@
                 <li class="comentario">/*</li>
                 <li class="comentario-tab-1">*</li>
                 <li class="comentario-tab-1">* Nombre: JAMC Matr: 1915173 Hora: N2</li>
-                <li class="comentario-tab-1">* Serie A (TAREA 17)</li>
+                <li class="comentario-tab-1">* Serie C (TAREA 19)</li>
                 <li class="comentario-tab-1">* Calcular e imprimir la Serie para los N primeros términos</li>
-                <li class="comentario-tab-1">* [1, 8, 243, 16384, 1953125, ...]</li>
+                <li class="comentario-tab-1">* [2, - 3, - 5, - 7 , 4 , 6, - 9, - 11, - 13, 8, 10, 12, -15, -17, -19, 14, ...]</li>
                 <li class="comentario-tab-1">*</li>
                 <li class="comentario-tab-1">*</li>
                 <li class="comentario-tab-1">*/</li>
@@ -32,12 +32,28 @@
                 <li class="tab-2">Scanner s = new Scanner(System.in);</li>
                 <li class="tab-2">System.out.print("| Ingrese la Cantidad de Elementos a Mostrar |: ");</li>
                 <li class="tab-2">int n = s.nextInt();</li>
-                <li class="tab-2">for (int i = 1; i < n+1; i++) </li>
+                <li class="tab-2">do</li>
                 <li class="tab-2">{</li>
-                <li class="tab-3">int e = (2 * i - 1);</li>
-                <li class="tab-3">int w = (int) (Math.pow(i, e));</li>
-                <li class="tab-3">System.out.print("["+w+"] ");</li>
-                <li class="tab-2">}</li>
+                <li class="tab-3">for(int i = 1; i < c+1; i++)</li>
+                <li class="tab-3">{</li>
+                <li class="tab-4">if(c2 < n+1)</li>
+                <li class="tab-4">{</li>
+                <li class="tab-5">System.out.print("["+(2*c3)+"] ");</li>
+                <li class="tab-5">c2++;</li>
+                <li class="tab-5">c3++;</li>
+                <li class="tab-4">}</li>
+                <li class="tab-3">}</li>
+                <li class="tab-3">c++;</li>
+                <li class="tab-3">for(int j = 1; j < 4; j++)</li>
+                <li class="tab-3">{</li>
+                <li class="tab-4">if(c2 < n+1)</li>
+                <li class="tab-4">{</li>
+                <li class="tab-5">System.out.print("["+(-1*c1)+"] ");</li>
+                <li class="tab-5">c1 += 2;</li>
+                <li class="tab-5">c2++;</li>
+                <li class="tab-4">}</li>
+                <li class="tab-3">}</li>
+                <li class="tab-2">} while(c2 < n+1);</li>
                 <li class="tab-1">}</li>
                 <li>}</li>
             </ul>
@@ -51,13 +67,13 @@
     </div>
     <div class="botones">
         <div class="anterior">
-            <a href="Tarea16.html">Anterior</a>
+            <a href="Tarea18.html">Anterior</a>
         </div>
         <div class="tareas">
             <a href="MenuTareas.html">Menú Tareas</a>
         </div>
         <div class="siguiente">
-            <a href="Tarea18.html">Siguiente</a>
+            <a href="Tarea20.html">Siguiente</a>
         </div>
     </div>
 </body>

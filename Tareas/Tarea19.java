@@ -19,7 +19,7 @@ public class Tarea19
         @SuppressWarnings("resource")
 		Scanner s = new Scanner(System.in);
         int n, c = 1, c1 = 3, c2 = 1, c3 = 1;
-        System.out.print("| Ingresa la Cantidad de Números a Mostrar |: ");
+        System.out.print("| Ingresa la Cantidad de Numeros a Mostrar |: ");
         n = s.nextInt();
         do
         {
@@ -38,7 +38,7 @@ public class Tarea19
                 if(c2 < n+1)
                 {
                 	System.out.print("["+(-1*c1)+"] ");
-                	c1 = c1 + 2;
+                	c1 += 2;
                 	c2++;                    
                 }
             }

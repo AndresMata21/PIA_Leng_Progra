@@ -9,91 +9,69 @@
 </head>
 <body>
     <h1>TAREAS DE INVESTIGACIÓN</h1>
-    <h2>Tarea #5<br><code class="til">- PROLOG -</code></h2>
+    <h2>Tarea #11<br><code class="til">- COBOL -</code></h2>
     <div class="contenedor">
         <div class="img-1">
-            <img class="img-1-c" src="img/Investigaciones/prolog-2.png" alt="Alternate Text" />
+            <img class="img-1-c" src="img/Investigaciones/cobol.jpg" alt="Alternate Text" />
         </div>
         <h3 class="pregunta">- Símbolos -</h3>
         <div class="cont_info">
             <p>
-                Constantes: 2, 3, 4, 6 ,12. Relación binaria: divide. Variable: X.
+                A-Z	Alfabetos(mayúsculas), a-z	Alfabeto (Minúsculas), 0-9	Valor Numérico, “ ”	Espacio, +	Signo más, -	Signo menos o guión, *	Asterisco, /	Barra inclinada, $	Símbolo de moneda,
+                ,	Coma, ;	Punto y coma, .	Punto decimal o Período, "	Comillas, (	Paréntesis izquierdo, )	Paréntesis derecho, >	Mayor que, <	Menos de, :	Colon, '	Apóstrofe, =	Signo Igual
             </p>
         </div>
         <h3 class="pregunta">- Sintaxis -</h3>
         <div class="cont_info">
             <p>
-                La sintaxis del lenguaje incluye la declaración de <code class="subtema">hechos</code>, preguntas y reglas. Los hechos son cláusulas determinadas con un solo literal en el que únicamente figuran constantes
+                Fue creada de forma que fuese parecida al idioma inglés, evitando el uso de símbolos que se impusieron en lenguajes de programación posteriores
             </p>
-            <p>
-                Ejemplo:
-            </p>
-            <ul>
-                <li>sobre(a,b)</li>
-                <li>sobre(b,c)</li>
-                <li>sobre(d,e)</li>
-            </ul>
-            <p>
-                Las <code class="subtema">reglas</code> son cláusulas determinadas con al menos un literal negativo. La cláusula: ¬p1(x,y...)  ¬p2(x,y...)   ...   q(x,y...)   p1(x,y...)   p2(x,y...)...   q(x,y...)
-            </p>
-            <p>
-                Se escribe con la sintaxis: q(X,Y...) :- p1(X,Y...),p2(X,Y...). Que se lee: «q(X,Y...) si p1(X,Y...) y p2(X,Y...) y...»
-            </p>
-            <p>
-                Ejemplo:
-            </p>
-            <ul>
-                <li>maq(X,Y) :- sobre(X,Y)</li>
-                <li>maq(X,Y) :- sobre(X,Z),maq(Z,Y)</li>
-            </ul>
         </div>
         <h3 class="pregunta">- Esqueleto de Programas -</h3>
         <div class="cont_info">
-            <p>
-                El hecho de programar en ProLog consiste en dar al ordenador un Universo finito en forma de hechos y reglas, proporcionando los medios para realizar inferencias de un hecho a otro. La programación en ProLog consiste en:
-            </p>
             <ul>
-                <li>Declarar algunos HECHOS sobre los objetos y sus relaciones.</li>
-                <li>Definir algunas REGLAS sobre los objetos y sus relaciones, y</li>
-                <li>Hacer PREGUNTAS sobre los objetos y sus relaciones.</li>
+                <li>Las secciones son la subdivisión lógica de la lógica del programa. Una sección es una colección de párrafos.</li>
+                <li>Los párrafos son la división de una sección o división. Es definida por el usuario o un nombre predefinido seguido de un período, y consta de cero o más frases/entradas.</li>
+                <li>Las penas son la combinación de uno o más declaraciones. Las penas sólo aparecen en el procedimiento. La condena debe terminar con un punto.</li>
+                <li>Las declaraciones son significativos COBOL declaración que realiza algún procesamiento.</li>
+                <li>Caracteres son los más bajos de la jerarquía y no puede ser divisible.</li>
             </ul>
         </div>
         <h3 class="pregunta">- Aplicación descargada para Editar y Ejectutar -</h3>
         <div class="cont_info">
             <p>
-                SWI-Prolog
+                Enterprise COBOL, de IBM. Open Cobol.
             </p>
             <div class="img-1">
-                <img class="img-1-c" src="img/Investigaciones/prolog.jpg" alt="Alternate Text" />
+                <img class="img-1-c" src="img/Investigaciones/cobol-2.png" alt="Alternate Text" />
             </div>
         </div>
         <h3 class="pregunta">- Paradigma al que Pertenece -</h3>
         <div class="cont_info">
             <p>
-                Paradigma de programación lógica.
+                Paradigma imperativo.
             </p>
         </div>
         <h3 class="pregunta">- Ejemplo de Programa Escrito -</h3>
         <div class="cont_info">
             <ul class="codigo">
-                <li><span class="comentario">% La sintaxis es fibonacci(N, F) -> Término N de la sucesión (el resultado se guarda en F).</span></li>
-                <li class="tab-1"><span class="atributo">fibonacci</span>(0, 0) :-!.</li>
-                <li class="tab-1"><span class="atributo">fibonacci</span>(1, 1) :-!.</li>
-                <li class="tab-1"><span class="atributo">fibonacci</span>(<span class="atributo">N</span> ,<span class="atributo">F</span>) :<span class="atributo">-N1 </span>is <span class="atributo">N</span> - 1, <span class="atributo">fibonacci</span>(<span class="atributo">N1, F1</span>),<span class="atributo">N2</span> is <span class="atributo">N</span> - 2,</li>
-                <li class="tab-1"><span class="atributo">fibonacci</span>(<span class="atributo">N2</span>, <span class="atributo">F2</span>), <span class="atributo">F</span> is <span class="atributo">F1</span> + <span class="atributo">F2</span>.</li>
-                <li><span class="comentario">%el fibonacci se llama recursivamente dejando el resultado en F.</span></li>
+                <li class="tab-1"><span class="atributo">IDENTIFICATION DIVISION.</span></li>
+                <li class="tab-3"><span class="atributo">PROGRAM-ID.</span> HOLAMUNDO.</li>
+                <li class="tab-3"><span class="atributo">PROCEDURE DIVISION.</span></li>
+                <li class="tab-3"><span class="atributo">DISPLAY </span> 'Hola mundo'</li>
+                <li class="tab-3"><span class="atributo">GOBACK </span></li>
             </ul>
         </div>
     </div>
     <div class="botones">
         <div class="anterior">
-            <a href="Tarea4.html">Anterior</a>
+            <a href="Tarea10.html">Anterior</a>
         </div>
         <div class="tareas">
             <a href="MenuTareas.html">Menú Tareas</a>
         </div>
         <div class="siguiente">
-            <a href="Tarea6.html">Siguiente</a>
+            <a href="Tarea12.html">Siguiente</a>
         </div>
     </div>
 </body>
